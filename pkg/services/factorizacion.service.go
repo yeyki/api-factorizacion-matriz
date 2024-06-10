@@ -130,6 +130,7 @@ func denseToSlices(d *mat.Dense) [][]float64 {
 			out[i][j] = d.At(i, j)
 		}
 	}
+
 	return out
 }
 
