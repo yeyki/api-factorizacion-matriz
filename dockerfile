@@ -24,7 +24,7 @@ WORKDIR /root/
 COPY --from=builder /app/server .
 
 # Exponer el puerto en el que la aplicación escuchará
-EXPOSE 3000
+EXPOSE 8080
 
 # Ejecutar el binario compilado
 CMD ["./server"]
